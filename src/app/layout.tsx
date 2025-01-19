@@ -7,7 +7,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='ko'>
-      <body>{children}</body>
+      <body className='h-dvh w-screen content-center bg-[#ECECEC] font-pretendard'>
+        <main className='relative mx-auto flex h-full max-h-dvh w-full min-w-[360px] max-w-[430px] flex-col bg-white'>
+          {children}
+        </main>
+      </body>
     </html>
   );
 }
