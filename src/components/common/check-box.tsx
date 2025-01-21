@@ -1,5 +1,5 @@
 import { ForwardedRef, forwardRef, useId } from 'react';
-import CheckIcon from './icon/check-icon';
+import CheckIcon from '../icons/check-icon';
 import { twMerge } from 'tailwind-merge';
 
 type Props = Omit<
